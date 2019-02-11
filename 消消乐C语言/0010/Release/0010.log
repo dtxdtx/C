@@ -1,0 +1,38 @@
+﻿生成启动时间为 2019/1/7 下午 01:33:18。
+     1>项目“D:\360MoveData\Users\Administrator\Documents\Visual Studio 2010\Projects\0010\0010\0010.vcxproj”在节点 2 上(build 个目标)。
+     1>InitializeBuildStatus:
+         正在创建“Release\0010.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         d:\vs\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _MBCS /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt 1.cpp
+         1.cpp
+     1>1.cpp(172): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\vs\VC\include\stdio.h(371) : 参见“sprintf”的声明
+     1>1.cpp(174): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\vs\VC\include\stdio.h(371) : 参见“sprintf”的声明
+     1>1.cpp(254): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\vs\VC\include\string.h(110) : 参见“strcat”的声明
+     1>1.cpp(255): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\vs\VC\include\string.h(110) : 参见“strcat”的声明
+     1>1.cpp(464): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\vs\VC\include\stdio.h(304) : 参见“scanf”的声明
+     1>1.cpp(466): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\vs\VC\include\stdio.h(234) : 参见“fopen”的声明
+     1>1.cpp(485): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\vs\VC\include\stdio.h(234) : 参见“fopen”的声明
+     1>1.cpp(495): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\vs\VC\include\stdio.h(253) : 参见“fscanf”的声明
+       Link:
+         d:\vs\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\360MoveData\Users\Administrator\Documents\Visual Studio 2010\Projects\0010\Release\0010.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Release\0010.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"D:\360MoveData\Users\Administrator\Documents\Visual Studio 2010\Projects\0010\Release\0010.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\360MoveData\Users\Administrator\Documents\Visual Studio 2010\Projects\0010\Release\0010.lib" /MACHINE:X86 Release\1.obj
+         正在生成代码
+         已完成代码的生成
+         0010.vcxproj -> D:\360MoveData\Users\Administrator\Documents\Visual Studio 2010\Projects\0010\Release\0010.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"D:\360MoveData\Users\Administrator\Documents\Visual Studio 2010\Projects\0010\Release\0010.exe;#1" /manifest Release\0010.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         正在删除文件“Release\0010.unsuccessfulbuild”。
+         正在对“Release\0010.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“D:\360MoveData\Users\Administrator\Documents\Visual Studio 2010\Projects\0010\0010\0010.vcxproj”(build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:01.27
